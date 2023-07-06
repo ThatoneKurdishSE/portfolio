@@ -6,12 +6,13 @@ height: 100%;
 width: 100%;
 display: flex;
 justify-content: space-between;
+
 `;
 
 export const NavLink = styled(Link)`
-    color: #808080;
     display: flex;
     align-items: center;
+	color: rgb(212 212 212);
     font-family: "Gill Sans", sans-serif;
     text-decoration: none;
     padding: 0 1rem;
@@ -20,6 +21,10 @@ export const NavLink = styled(Link)`
     &.active {
         color: #000000;
     }
+	&:hover {
+		transition: all 0.7s ease-in-out;
+		color: black;
+	}
 `;
 
 
@@ -52,9 +57,9 @@ width: 100vw; */
 
 export const NavBtnLink = styled(Link)`
 border-radius: 4px;
-background: black;
+background: transparent;
 padding: 10px 22px;
-color: white;
+color: #282c34;
 outline: none;
 border: none;
 cursor: pointer;
@@ -62,8 +67,7 @@ transition: all 0.2s ease-in-out;
 text-decoration: none;
 font-family: "Gill Sans", sans-serif;
 &:hover {
-	transition: all 0.2s ease-in-out;
-	background: #fff;
-	color: #6f6870;
+	transition: all 0.7s ease-in-out;
+	color: black;
 }
 `;

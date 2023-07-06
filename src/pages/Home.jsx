@@ -13,23 +13,25 @@ return (
 			display: 'flex',
 			justifyContent: 'left',
 			alignItems: 'left',
-			height: '100vh'
+			height: '90vh',
 		}}
 		>
-		<h5 style={{fontFamily: '"Gill Sans", sans-serif', fontSize: "40px", fontWeight: '350'}}>
-			Hi there, I'm Raz! Welcome to my virtual space. I like
+		<h5 style={{fontFamily: '"Gill Sans", sans-serif', fontSize: "35px", fontWeight: '350', color: '#d4f1d482'}}>
+			Welcome to my virtual space, I'm Raz!
+			<br/>
+			I find joy in
 			<div style={{fontFamily: '"Gill Sans", sans-serif', fontWeight: '100', justifyItems: 'stretch'}}>
 				<h2>
-					Creating,
+					creating,
 				</h2>
 				<h4>
-					Engineering,
+					engineering,
 				</h4>
 				<h2 fontWeight='100px'>
-					Pomegranates and R&B,
+					pomegranates and R&B,
 				</h2>
-				<h3>
-					Leading and helping,
+				<h3 fontWeight='20px'>
+					leading and helping,
 				</h3>
 				and
 				<h2>
@@ -43,10 +45,10 @@ return (
 		display: 'flex',
 		justifyContent: 'right',
 		alignItems: 'right',
-		height: '100vh'
+		height: '90vh'
 	}}
 	>
-		<img src={pic} alt='pic' style={{height: '100vh', borderTopLeftRadius: '350px', borderTopRightRadius: '350px'}}>
+		<img src={pic} alt='pic' style={{height: '90vh', borderTopLeftRadius: '350px', borderTopRightRadius: '350px'}}>
 		
 		</img>
 	</div>

@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from '../pages/Home';
 import Creations from '../pages/Creations';
 import WorkWithMe from '../pages/WorkWithMe';
-import Blogs from '../pages/Blogs';
+import Writings from '../pages/Writings';
 
 function Routed() {
 return (
@@ -14,7 +14,7 @@ return (
         <Route path="/home" exact element={<Home />} />
         <Route path="/creations" exact element={<Creations />} />
         <Route path="/workwithme" exact element={<WorkWithMe />} />
-        <Route path="/blogs" exact element={<Blogs />} />
+        <Route path="/writings" exact element={<Writings />} />
     </Routes>
 </Router>
 );

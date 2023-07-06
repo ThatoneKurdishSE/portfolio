@@ -12,8 +12,8 @@ return (
 	<>
 	<Nav>
 		<NavMenu>
-		<NavLink to='/blogs' >
-			Blogs
+		<NavLink to='/writings' >
+			Writings
 		</NavLink>
 		<NavLink to='/creations' >
 			Creations
