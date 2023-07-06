@@ -2,7 +2,6 @@ import React from 'react';
 import {
 Nav,
 NavLink,
-Bars,
 NavMenu,
 NavBtn,
 NavBtnLink,
@@ -13,9 +12,6 @@ return (
 	<>
 	<Nav>
 		<NavMenu>
-		<NavLink to='/about' >
-			About
-		</NavLink>
 		<NavLink to='/blogs' >
 			Blogs
 		</NavLink>
