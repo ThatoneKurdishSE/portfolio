@@ -16,24 +16,25 @@ return (
 			height: '100vh'
 		}}
 		>
-		<h5 style={{fontFamily: '"Gill Sans", sans-serif', fontSize: "40px", fontWeight: 'lighter'}}>
+		<h5 style={{fontFamily: '"Gill Sans", sans-serif', fontSize: "40px", fontWeight: '350'}}>
 			Hi there, I'm Raz! Welcome to my virtual space. I like
-			<div style={{fontFamily: '"Gill Sans", sans-serif', fontWeight: 'lighter', justifyItems: 'stretch'}}>
+			<div style={{fontFamily: '"Gill Sans", sans-serif', fontWeight: '100', justifyItems: 'stretch'}}>
 				<h2>
-					Creating
+					Creating,
 				</h2>
 				<h4>
-					Engineering
+					Engineering,
 				</h4>
-				<h5>
-					Pomegranates and poetry
-				</h5>
+				<h2 fontWeight='100px'>
+					Pomegranates and R&B,
+				</h2>
 				<h3>
-					Leading and helping
+					Leading and helping,
 				</h3>
-				<h5>
-					learning new languages
-				</h5>
+				and
+				<h2>
+					learning new languages.
+				</h2>
 			</div>
 		</h5>
 	</div>
@@ -45,7 +46,7 @@ return (
 		height: '100vh'
 	}}
 	>
-		<img src={pic} alt='pic' style={{height: '100vh', borderTopLeftRadius: '10px'}}>
+		<img src={pic} alt='pic' style={{height: '100vh', borderTopLeftRadius: '350px', borderTopRightRadius: '350px'}}>
 		
 		</img>
 	</div>
