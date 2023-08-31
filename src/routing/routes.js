@@ -17,7 +17,7 @@ return (
         <Route path="/workwithme" exact element={<WorkWithMe />} />
         <Route path="/writings" exact element={<Writings />} />
     </Routes>
-    <Footer />
+    {/* <Footer /> */}
 </Router>
 );
 }

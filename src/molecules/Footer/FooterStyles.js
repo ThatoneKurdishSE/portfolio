@@ -20,12 +20,12 @@ grid-template-columns: repeat(auto-fill,
 `;
 
 export const FooterLink = styled.a`
-color: #fff;
+color: #86618b;
 margin-bottom: 20px;
 font-size: 14px;
 text-decoration: none;
 &:hover {
-	color: gray;
+	color: grey;
 	transition: 200ms ease-in;
 }
 padding-left: 4px;
@@ -35,7 +35,7 @@ font-family: "Gill Sans", sans-serif;
 export const Heading = styled.p`
 font-size: 18px;
 font-weight: light;
-color: #fff;
+color: #86618b;
 font-family: "Gill Sans", sans-serif;
 `;
 export const ContactButton = styled.button`

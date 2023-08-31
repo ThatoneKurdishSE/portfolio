@@ -12,18 +12,18 @@ justify-content: space-between;
 export const NavLink = styled(Link)`
     display: flex;
     align-items: center;
-	color: rgb(212 212 212);
+	color: #16a085;
     font-family: "Gill Sans", sans-serif;
     text-decoration: none;
     padding: 0 1rem;
     height: 100%;
     cursor: pointer;
     &.active {
-        color: #000000;
+        color: #ffff;
     }
 	&:hover {
 		transition: all 0.7s ease-in-out;
-		color: black;
+		color: #ffff;
 	}
 `;
 
@@ -59,7 +59,7 @@ export const NavBtnLink = styled(Link)`
 border-radius: 4px;
 background: transparent;
 padding: 10px 22px;
-color: #282c34;
+color: #16a085;
 outline: none;
 border: none;
 cursor: pointer;
@@ -68,6 +68,6 @@ text-decoration: none;
 font-family: "Gill Sans", sans-serif;
 &:hover {
 	transition: all 0.7s ease-in-out;
-	color: black;
+	color: #ffff;
 }
 `;

@@ -1,4 +1,5 @@
 import React from 'react';
+import BlogCard from '../atoms/Box/Card/BlogCard';
 
 const Writings = () => {
 return (
@@ -10,7 +11,7 @@ return (
 		height: '100vh'
 	}}
 	>
-	<h1>Writings</h1>
+		<BlogCard />
 	</div>
 );
 };
