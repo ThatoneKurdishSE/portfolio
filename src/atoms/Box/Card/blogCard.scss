@@ -94,7 +94,9 @@ margin-bottom: 6px;
     margin-bottom: 8px;
 }
 }
-
+a {
+    text-decoration: none;
+}
 .card__title {
 font-family: var(--font-family-primary);
 font-size: var(--font-size-title);
