@@ -56,6 +56,8 @@ width: 100vw; */
 `;
 
 export const NavBtnLink = styled(Link)`
+display: flex;
+justify-content: flex-end;
 border-radius: 4px;
 background: transparent;
 padding: 10px 22px;

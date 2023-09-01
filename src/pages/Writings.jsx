@@ -5,10 +5,7 @@ const Writings = () => {
 return (
 	<div
 	style={{
-		display: 'flex',
-		justifyContent: 'left',
-		alignItems: 'left',
-		height: '100vh'
+
 	}}
 	>
 		<BlogCard />
