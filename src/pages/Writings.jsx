@@ -1,15 +1,10 @@
 import React from 'react';
-import BlogCard from '../atoms/Box/Card/BlogCard';
+import BlogCards from '../atoms/Box/Card/BlogCards';
 
 const Writings = () => {
 return (
-	<div
-	style={{
 
-	}}
-	>
-		<BlogCard />
-	</div>
+	<BlogCards />
 );
 };
 

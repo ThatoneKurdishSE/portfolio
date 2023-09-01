@@ -14,13 +14,19 @@
 }
 
 body {
-// display: flex;
-// justify-content: center;
-// align-items: center;
-// width: 100vw;
-// height: 100vh;
-padding: 0;
-margin: 0;
+}
+
+.tag {
+    align-self: flex-start;
+    padding: .25em .75em;
+    border-radius: 1em;
+    font-size: .8rem;
+}
+
+.tag-brown {
+    background: rgb(22, 160, 133);
+    // background: linear-gradient(to bottom, #FFD194, #D1913C);
+    color: #fafafa;
 }
 
 * {
@@ -49,7 +55,7 @@ padding: 20px 20px 28px 20px;
 box-sizing: border-box;
 margin: 20px;
 display: flex;
-flex-direction: column;
+flex-direction: row;
 
 @include mediaBig {
     flex-direction: row;
@@ -76,8 +82,12 @@ margin-bottom: 18px;
 
 .card__content {
 @include mediaBig {
-    width: 55%;
     padding-left: 40px;
+    max-width: 700px; /* width required for text-overflow to work */
+    white-space: normal;
+    max-height: 500px;
+    overflow: hidden;;
+    text-overflow: clip;
 }
 }
 
