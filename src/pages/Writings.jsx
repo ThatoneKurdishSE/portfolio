@@ -1,5 +1,5 @@
 import React from 'react';
-import BlogCards from '../atoms/Box/Card/BlogCards';
+import BlogCards from '../atoms/Card/BlogCards';
 
 const Writings = () => {
 return (

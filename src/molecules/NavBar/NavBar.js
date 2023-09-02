@@ -18,7 +18,7 @@ return (
 		<NavLink to='/creations' >
 			Creations
 		</NavLink>
-		<NavLink to='/home' >
+		<NavLink to='/' >
 			Home
 		</NavLink>
 		</NavMenu>
