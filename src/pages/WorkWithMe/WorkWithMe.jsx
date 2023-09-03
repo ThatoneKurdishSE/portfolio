@@ -3,8 +3,6 @@ import workWithMe from '../WorkWithMe/workWithMe.scss'
 
 const WorkWithMe = () => {
 
-
-
 return (
 	<div
 		style={{
@@ -25,10 +23,11 @@ return (
 				backgroundPosition: "0 85%",
 				padding: "4px",
 				marginLeft: "-4px",
-				// maxWidth: "50%"
 			}}>
-				<h3 style={{}}>About me</h3>
-				I am a software engineer with a great passion for community, diverse problem solving, and aesthetics.
+				<h5 style={{color: "rgb(22, 160, 133)"}}>About me</h5>
+				<p style={{fontSize: "x-large"}}>
+					I am a software engineer with a great passion for community, diverse problem solving, and aesthetics.
+				</p>
 			</div>
 		</div>
 		<div
@@ -46,9 +45,9 @@ return (
 			}}
 		
 		>
-			<h3>
+			<h5 style={{color: "rgb(22, 160, 133)"}}>
 				Projects I have worked on
-			</h3>
+			</h5>
 			<div style={{display: "flex", flexDirection: "column", textDecoration: "none", alignItems: 'center'}}>
 				<a className='link' href='https://www.zengines.ai/'>Zengines AI</a>
 				<a className='link' href='https://www.theflybook.com/'>The Flybook</a>
@@ -68,9 +67,9 @@ return (
 				marginLeft: "-4px",
 				alignItems: 'center',
 		}}>
-				<h3>
-					Get in touch
-				</h3>
+				<h5 style={{color: "rgb(22, 160, 133)"}}>
+					Let's get in touch
+				</h5>
 				<div style={{display: "flex", flexDirection: "column", textDecoration: "none", alignItems: 'center'}}>
 					<a className='link' href='https://www.linkedin.com/in/razaljaf/'>LinkedIn</a>
 					<a className='link' href='https://github.com/ThatoneKurdishSE'>Github</a>

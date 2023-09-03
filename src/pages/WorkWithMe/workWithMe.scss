@@ -1,7 +1,7 @@
 .link {
     text-decoration: none;
     font-family: var(--font-family-primary);
-    font-size: var(--font-size-title);
+    // font-size: var(--font-size-title);
     line-height: var(--line-height-title);
     color: var(--color-text);
     box-decoration-break: clone;
@@ -11,8 +11,9 @@
     background-position: 0 85%;
     padding: 0 4px;
     margin-left: -4px;
+    font-size: x-large;
 }
 
 .link:hover {
-    font-size: larger;
+    font-size: xx-large;
 }
