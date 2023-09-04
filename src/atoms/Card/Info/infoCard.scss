@@ -1,0 +1,56 @@
+.newsCard {
+    position: relative;
+    width: 500px;
+    height: 250px;
+    margin: 5rem auto;
+    opacity: 0.9rem;
+    background-color: transparent;
+    color:#262323;
+    overflow: hidden;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.wrappa {
+    display: flex;
+    justify-content: space-around;
+}
+
+.newsCaption {
+    opacity: .0;
+    color: beige;
+    text-align: center;
+    list-style-type: none;
+    overflow:hidden;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    line-height: 40px;
+        -webkit-transform: translateY(80%);
+            transform: translateY(80%);
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    -webkit-transition: opacity 0.1s 0.3s, -webkit-transform 0.4s;
+    transition: opacity 0.1s 0.3s, -webkit-transform 0.4s;
+    transition: transform 0.4s, opacity 0.1s 0.3s;
+    transition: transform 0.4s, opacity 0.1s 0.3s, -webkit-transform 0.4s;
+}
+
+.newsCaption-title {
+    :hover {
+        color: transparent;
+    }
+}
+
+.newsCaption-content {
+
+
+}
+
+.news-Slide-up:hover .newsCaption {
+    opacity: 0.8;
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+    -webkit-transition: opacity 0.1s, -webkit-transform 0.4s;
+    transition: opacity 0.1s, -webkit-transform 0.4s;
+    transition: transform 0.4s, opacity 0.1s;
+    transition: transform 0.4s, opacity 0.1s, -webkit-transform 0.4s;
+}
