@@ -3,8 +3,6 @@ import {
 Nav,
 NavLink,
 NavMenu,
-NavBtn,
-NavBtnLink,
 } from './NavbarElements'
 
 const Navbar = () => {
@@ -22,9 +20,6 @@ return (
 			Home
 		</NavLink>
 		</NavMenu>
-		<NavBtn>
-			<NavBtnLink to='/workwithme'>Work With Me</NavBtnLink>
-		</NavBtn>
 	</Nav>
 	</>
 );

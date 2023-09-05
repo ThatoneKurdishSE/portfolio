@@ -7,18 +7,20 @@ const Box = () => {
 
 return (
 
-    <div class="body">
+    <div className="body">
 
-        <div class="content">
-            <div class="content__container">
-            <p class="content__container__text">
+        <div className="content">
+            <div className="content__container">
+            <p className="content__container__text">
                 Hello, I'm Raz
             </p>
 
-            <ul class="content__container__list">
-                <li class="content__container__list__item">Engineer</li>
-                <li class="content__container__list__item">Creative</li>
-                <li class="content__container__list__item">Problem solver</li>
+            <ul className="content__container__list">
+                <li className="content__container__list__item">Engineer</li>
+                <li className="content__container__list__item">Creative</li>
+                <li className="content__container__list__item">Problem solver</li>
+                <li className="content__container__list__item">Polyglot</li>
+                <li className="content__container__list__item">Aerospace Enthusiast</li>
             </ul>
         </div>
     </div>

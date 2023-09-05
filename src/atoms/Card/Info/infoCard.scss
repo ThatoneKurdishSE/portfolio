@@ -1,18 +1,20 @@
 .newsCard {
     position: relative;
     width: 500px;
+    max-width: 300px;
+    padding: 16px;
     height: 250px;
     margin: 5rem auto;
-    opacity: 0.9rem;
-    background-color: transparent;
-    color:#262323;
+    opacity: 0.5;
+    color:#efe4e4;
     overflow: hidden;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16), 0 4px 8px rgba(0, 0, 0, 0.23);
 }
 
 .wrappa {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 4px;
 }
 
 .newsCaption {
@@ -22,7 +24,7 @@
     list-style-type: none;
     overflow:hidden;
     font-family: 'Lato', sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 40px;
         -webkit-transform: translateY(80%);
             transform: translateY(80%);
@@ -35,22 +37,37 @@
 }
 
 .newsCaption-title {
-    :hover {
-        color: transparent;
-    }
+    font-size: xxx-large;
 }
 
-.newsCaption-content {
-
-
+.newsCaption-link {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #efe4e4;
+    font-size: large;
+}
+:hover .newsCaption-link{
+    text-decoration: underline;
 }
 
 .news-Slide-up:hover .newsCaption {
     opacity: 0.8;
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    -webkit-transition: opacity 0.1s, -webkit-transform 0.4s;
+    transition: opacity 0.1s, -webkit-transform 0.4s;
+    transition: transform 0.4s, opacity 0.1s;
+    transition: transform 0.4s, opacity 0.1s, -webkit-transform 0.4s;
+    background-size: 100% 5%;
+}
+.news-Slide-up:hover .newsCaption-title {
+    font-size: larger;
     -webkit-transform: translateY(0px);
             transform: translateY(0px);
     -webkit-transition: opacity 0.1s, -webkit-transform 0.4s;
     transition: opacity 0.1s, -webkit-transform 0.4s;
     transition: transform 0.4s, opacity 0.1s;
     transition: transform 0.4s, opacity 0.1s, -webkit-transform 0.4s;
+
 }

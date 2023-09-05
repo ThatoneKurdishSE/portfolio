@@ -27,10 +27,10 @@ const Home = () => {
 					display: 'flex',
 					justifyContent: 'right',
 					alignItems: 'right',
-					height: '90vh'
+					height: '70vh'
 				}}
 				>
-					<img src={pic} alt='pic' style={{height: '90vh', borderTopLeftRadius: '350px', borderTopRightRadius: '350px'}} />
+					<img src={pic} alt='pic' style={{borderTopLeftRadius: '350px', borderTopRightRadius: '350px'}} />
 				</div>
 			</div>
 			<InfoCard />
