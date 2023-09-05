@@ -33,7 +33,7 @@ function InfoCard() {
     );
 };
 
-function Card(props) {
+export function Card(props) {
     return (
         <div className='newsCard news-Slide-up'>
         <h2 className='newsCaption-title'>{props.title}</h2>
